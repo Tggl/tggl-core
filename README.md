@@ -1,62 +1,47 @@
-# Tggl javascript client
+# Tggl Core
+
+This package is used to evaluate flags and serves as a reference implementation.
 
 ## Usage
-Add the client to your dependencies:
+Add the package to your dependencies:
 ```
-npm i tggl-client
+npm i tggl-core
 ```
 
-Instantiate the client:
+Start evaluating flags:
 ```typescript
-import { TgglClient } from 'tggl-client'
+import { evalFlag, Flag, Operator } from 'tggl-core'
 
-const client = new TgglClient('YOUR_API_KEY')
-```
-
-You may pass options:
-```typescript
-const client = new TgglClient('YOUR_API_KEY', { url: 'https://your.mock' })
-```
-
-Set the context on which flags evaluation should be performed:
-```typescript
-await client.setContext({
-  userId: 'foo',
-  email: 'foo@gmail.com',
-  country: 'FR',
-  // ...
-})
-```
-You can specify any key you want, just make sure they match the conditions you specify during flags setup.
-
-`setContext` should be called anytime the context changes: app starts, user logs in, user changes email...
-Flags evaluation is done here so you should `await` for it to finish before testing flags.
-
-You can test if a flag is active or not:
-```typescript
-if (client.isActive('my-feature')) {
-  // ...
+const flag: Flag = {
+  conditions: [
+    {
+      rules: [
+        {
+          key: 'email',
+          operator: Operator.StrEndsWith,
+          values: ['@acme.com'],
+          negate: false,
+        }
+      ],
+      variation: {
+        active: true,
+        value: 'foo'
+      }
+    },
+  ],
+  defaultVariation: {
+    active: false,
+    value: null,
+  },
 }
-```
 
-Because flags evaluation is done when you call `setContext`, checking if a flag is active is
-synchronous and extremely fast.
+const result = evalFlag(
+  {
+    userId: 'foo',
+    email: 'john.doe@acme.com'
+  },
+  flag
+)
 
-An inactive flag and a non-existing flag will both return false. This is by design and prevents anyone from breaking your
-app by just deleting a flag, it will simply be considered inactive.
-
-You can get the value of a flag:
-```typescript
-if (client.get('my-feature') === 'Variation A') {
-  // ...
-}
-```
-
-If a flag is inactive, it will always return `undefined`, otherwise it will return the value of the variation the context falls in.
-You can specify a default value for innactive flags:
-
-```typescript
-if (client.get('my-feature', 'Variation A') === 'Variation A') {
-  // ...
-}
+console.log(result) // => 'foo'
 ```
