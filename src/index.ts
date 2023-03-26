@@ -1,4 +1,5 @@
 import uaParser from 'ua-parser-js'
+import xxhash from 'xxhashjs'
 
 export enum Operator {
   Empty = 'EMPTY',
@@ -8,6 +9,7 @@ export enum Operator {
   StrStartsWith = 'STR_STARTS_WITH',
   StrEndsWith = 'STR_ENDS_WITH',
   StrContains = 'STR_CONTAINS',
+  Percentage = 'PERCENTAGE',
   ArrOverlap = 'ARR_OVERLAP',
   RegExp = 'REGEXP',
   StrBefore = 'STR_BEFORE',
@@ -31,6 +33,13 @@ export type Rule =
       key: string
       operator: Operator.Empty | Operator.True
       negate: boolean
+    }
+  | {
+      key: string
+      operator: Operator.Percentage
+      rangeStart: number
+      rangeEnd: number
+      seed: number
     }
   | {
       key: string
@@ -331,6 +340,21 @@ export const evalRule = (rule: Rule, value: unknown): boolean => {
     return (
       rule.values.includes(String(ua.os.name).toLowerCase()) !== rule.negate
     )
+  }
+
+  if (rule.operator === Operator.Percentage) {
+    if (typeof value !== 'string' && typeof value !== 'number') {
+      return false
+    }
+
+    let probability =
+      (xxhash.h32(String(value), rule.seed).toNumber() >>> 0) / 0xffffffff
+
+    if (probability === 1) {
+      probability -= Number.EPSILON
+    }
+
+    return probability >= rule.rangeStart && probability < rule.rangeEnd
   }
 
   throw new Error(`Unsupported operator ${rule.operator}`)

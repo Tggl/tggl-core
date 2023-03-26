@@ -806,3 +806,33 @@ test('UaOs', () => {
   ).toBe(false)
   expectFalseForAllTypesBut('string', rules)
 })
+
+test('Percentage', () => {
+  const rules: Rule[] = [
+    {
+      key: 'foo',
+      operator: Operator.Percentage,
+      seed: 42,
+      rangeStart: 0.1,
+      rangeEnd: 0.7,
+    },
+  ]
+
+  expect(evalRules({ foo: 'foo' }, rules)).toBe(true)
+  expect(evalRules({ foo: 'bar' }, rules)).toBe(true)
+  expect(evalRules({ foo: 'baz' }, rules)).toBe(true)
+  expect(evalRules({ foo: 24 }, rules)).toBe(true)
+  expect(evalRules({ foo: 31 }, rules)).toBe(false)
+
+  expectFalseForAllTypesBut(['string', 'number'], rules)
+
+  let counter = 0
+
+  for (let i = 0; i < 1000; i++) {
+    if (evalRules({ foo: i }, rules)) {
+      counter++
+    }
+  }
+
+  expect(counter).toBe(609)
+})
