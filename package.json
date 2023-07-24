@@ -40,7 +40,6 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "ua-parser-js": "^1.0.33",
     "xxhashjs": "^0.2.2"
   }
 }

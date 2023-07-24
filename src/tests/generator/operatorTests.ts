@@ -642,54 +642,6 @@ ot('1', true, 'same but missing minor version')
 expectFalseForAllTypesBut('string')
 
 rule = {
-  operator: Operator.UaBrowser,
-  negate: false,
-  values: ['chrome', 'firefox'],
-}
-
-ot('bar', false)
-ot(
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36',
-  true,
-  'UA 1'
-)
-ot(
-  'Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20120716 Firefox/15.0a2',
-  true,
-  'UA 2'
-)
-ot(
-  'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008100716 Firefox/3.0.3 Flock/2.0',
-  false,
-  'UA 3'
-)
-expectFalseForAllTypesBut('string')
-
-rule = {
-  operator: Operator.UaOs,
-  negate: false,
-  values: ['mac os', 'windows'],
-}
-
-ot('bar', false)
-ot(
-  'Mozilla/5.0 (Windows; U; Windows NT 5.1; ru) AppleWebKit/522.11.3 (KHTML, like Gecko) Version/3.0 Safari/522.11.3',
-  true,
-  'UA 1'
-)
-ot(
-  'Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; en; rv:1.9.0.19) Gecko/2011091218 Camino/2.0.9 (like Firefox/3.0.19)',
-  true,
-  'UA 2'
-)
-ot(
-  'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008100716 Firefox/3.0.3 Flock/2.0',
-  false,
-  'UA 3'
-)
-expectFalseForAllTypesBut('string')
-
-rule = {
   operator: Operator.Percentage,
   seed: 42,
   rangeStart: 0.1,

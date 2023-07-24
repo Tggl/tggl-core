@@ -1,4 +1,3 @@
-import uaParser from 'ua-parser-js'
 import xxhash from 'xxhashjs'
 
 export enum Operator {
@@ -22,10 +21,6 @@ export enum Operator {
   SemverEq = 'SEMVER_EQ',
   SemverGte = 'SEMVER_GTE',
   SemverLte = 'SEMVER_LTE',
-  UaBrowser = 'UA_BROWSER',
-  UaOs = 'UA_OS',
-  LangCountry = 'LANG_COUNTRY',
-  LangLang = 'LANG_LANG',
 }
 
 export type Rule =
@@ -50,10 +45,6 @@ export type Rule =
         | Operator.StrEndsWith
         | Operator.StrContains
         | Operator.ArrOverlap
-        | Operator.UaBrowser
-        | Operator.UaOs
-        | Operator.LangCountry
-        | Operator.LangLang
       values: string[]
       negate: boolean
     }
@@ -315,31 +306,6 @@ export const evalRule = (rule: Rule, value: unknown): boolean => {
     }
 
     return !rule.negate
-  }
-
-  if (rule.operator === Operator.UaBrowser) {
-    if (typeof value !== 'string') {
-      return false
-    }
-
-    const ua = uaParser(value)
-
-    return (
-      rule.values.includes(String(ua.browser.name).toLowerCase()) !==
-      rule.negate
-    )
-  }
-
-  if (rule.operator === Operator.UaOs) {
-    if (typeof value !== 'string') {
-      return false
-    }
-
-    const ua = uaParser(value)
-
-    return (
-      rule.values.includes(String(ua.os.name).toLowerCase()) !== rule.negate
-    )
   }
 
   if (rule.operator === Operator.Percentage) {
