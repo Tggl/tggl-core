@@ -1035,12 +1035,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1072,12 +1067,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1109,12 +1099,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1146,12 +1131,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1183,12 +1163,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1220,12 +1195,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1257,12 +1227,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1292,12 +1257,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1329,12 +1289,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1366,12 +1321,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1403,12 +1353,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1440,12 +1385,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1477,12 +1417,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1514,12 +1449,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -1551,12 +1481,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1588,12 +1513,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1625,12 +1545,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1662,12 +1577,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1699,12 +1609,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1736,12 +1641,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1773,12 +1673,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1808,12 +1703,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1845,12 +1735,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1882,12 +1767,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1919,12 +1799,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1956,12 +1831,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -1993,12 +1863,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -2030,12 +1895,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -2067,12 +1927,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2104,12 +1959,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2141,12 +1991,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2178,12 +2023,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2215,12 +2055,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2252,12 +2087,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2289,12 +2119,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2326,12 +2151,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2363,12 +2183,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2400,12 +2215,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2435,12 +2245,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2472,12 +2277,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2509,12 +2309,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2546,12 +2341,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2583,12 +2373,7 @@
           "rules": [
             {
               "operator": "STR_EQUAL_SOFT",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2620,12 +2405,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2657,12 +2437,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2694,12 +2469,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2731,12 +2501,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2768,12 +2533,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2805,12 +2565,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2842,12 +2597,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2879,12 +2629,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2916,12 +2661,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2951,12 +2691,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -2988,12 +2723,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3025,12 +2755,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3062,12 +2787,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3099,12 +2819,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3136,12 +2851,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3173,12 +2883,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3210,12 +2915,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3247,12 +2947,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3284,12 +2979,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3321,12 +3011,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3358,12 +3043,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3395,12 +3075,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3432,12 +3107,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3469,12 +3139,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3506,12 +3171,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3541,12 +3201,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3578,12 +3233,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3615,12 +3265,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3652,12 +3297,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3689,12 +3329,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3726,12 +3361,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3763,12 +3393,7 @@
           "rules": [
             {
               "operator": "STR_CONTAINS",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -3800,12 +3425,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3837,12 +3457,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3874,12 +3489,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3911,12 +3521,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3948,12 +3553,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -3985,12 +3585,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4022,12 +3617,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4059,12 +3649,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4096,12 +3681,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4133,12 +3713,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4168,12 +3743,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4205,12 +3775,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4242,12 +3807,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4279,12 +3839,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4316,12 +3871,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4353,12 +3903,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4390,12 +3935,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -4427,12 +3967,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4464,12 +3999,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4501,12 +4031,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4538,12 +4063,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4575,12 +4095,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4612,12 +4127,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4649,12 +4159,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4686,12 +4191,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4723,12 +4223,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4760,12 +4255,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4795,12 +4285,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4832,12 +4317,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4869,12 +4349,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4906,12 +4381,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4943,12 +4413,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -4980,12 +4445,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5017,12 +4477,7 @@
           "rules": [
             {
               "operator": "STR_STARTS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5054,12 +4509,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5091,12 +4541,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5128,12 +4573,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5165,12 +4605,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5202,12 +4637,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5239,12 +4669,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5276,12 +4701,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5313,12 +4733,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5350,12 +4765,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5387,12 +4797,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5422,12 +4827,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5459,12 +4859,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5496,12 +4891,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5533,12 +4923,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5570,12 +4955,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5607,12 +4987,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5644,12 +5019,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": false,
               "key": "foo"
             }
@@ -5681,12 +5051,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5718,12 +5083,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5755,12 +5115,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5792,12 +5147,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5829,12 +5179,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5866,12 +5211,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5903,12 +5243,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5940,12 +5275,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -5977,12 +5307,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -6014,12 +5339,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -6049,12 +5369,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -6086,12 +5401,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -6123,12 +5433,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -6160,12 +5465,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -6197,12 +5497,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -6234,12 +5529,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -6271,12 +5561,7 @@
           "rules": [
             {
               "operator": "STR_ENDS_WITH",
-              "values": [
-                "bar",
-                "baz",
-                "true",
-                "1"
-              ],
+              "values": ["bar", "baz", "true", "1"],
               "negate": true,
               "key": "foo"
             }
@@ -11604,10 +10889,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11639,10 +10921,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11659,10 +10938,7 @@
       }
     },
     "context": {
-      "foo": [
-        "foo",
-        "--"
-      ]
+      "foo": ["foo", "--"]
     },
     "expected": {
       "active": false,
@@ -11677,10 +10953,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11697,10 +10970,7 @@
       }
     },
     "context": {
-      "foo": [
-        "foo",
-        "bar"
-      ]
+      "foo": ["foo", "bar"]
     },
     "expected": {
       "active": true,
@@ -11715,10 +10985,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11735,11 +11002,7 @@
       }
     },
     "context": {
-      "foo": [
-        "baz",
-        "foo",
-        "bar"
-      ]
+      "foo": ["baz", "foo", "bar"]
     },
     "expected": {
       "active": true,
@@ -11754,10 +11017,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11774,10 +11034,7 @@
       }
     },
     "context": {
-      "foo": [
-        "baz",
-        "foo"
-      ]
+      "foo": ["baz", "foo"]
     },
     "expected": {
       "active": true,
@@ -11792,10 +11049,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11812,9 +11066,7 @@
       }
     },
     "context": {
-      "foo": [
-        "baz"
-      ]
+      "foo": ["baz"]
     },
     "expected": {
       "active": true,
@@ -11829,10 +11081,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11849,9 +11098,7 @@
       }
     },
     "context": {
-      "foo": [
-        "bAz"
-      ]
+      "foo": ["bAz"]
     },
     "expected": {
       "active": false,
@@ -11866,10 +11113,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11886,9 +11130,7 @@
       }
     },
     "context": {
-      "foo": [
-        "bàz"
-      ]
+      "foo": ["bàz"]
     },
     "expected": {
       "active": false,
@@ -11903,10 +11145,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11923,9 +11162,7 @@
       }
     },
     "context": {
-      "foo": [
-        "bÁz"
-      ]
+      "foo": ["bÁz"]
     },
     "expected": {
       "active": false,
@@ -11940,10 +11177,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -11973,10 +11207,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12008,10 +11239,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12043,10 +11271,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12078,10 +11303,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12113,10 +11335,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12148,10 +11367,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12183,10 +11399,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12218,10 +11431,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12253,10 +11463,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12288,10 +11495,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12323,10 +11527,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12358,10 +11559,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": false,
               "key": "foo"
             }
@@ -12393,10 +11591,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12428,10 +11623,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12448,10 +11640,7 @@
       }
     },
     "context": {
-      "foo": [
-        "foo",
-        "--"
-      ]
+      "foo": ["foo", "--"]
     },
     "expected": {
       "active": true,
@@ -12466,10 +11655,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12486,10 +11672,7 @@
       }
     },
     "context": {
-      "foo": [
-        "foo",
-        "bar"
-      ]
+      "foo": ["foo", "bar"]
     },
     "expected": {
       "active": false,
@@ -12504,10 +11687,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12524,11 +11704,7 @@
       }
     },
     "context": {
-      "foo": [
-        "baz",
-        "foo",
-        "bar"
-      ]
+      "foo": ["baz", "foo", "bar"]
     },
     "expected": {
       "active": false,
@@ -12543,10 +11719,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12563,10 +11736,7 @@
       }
     },
     "context": {
-      "foo": [
-        "baz",
-        "foo"
-      ]
+      "foo": ["baz", "foo"]
     },
     "expected": {
       "active": false,
@@ -12581,10 +11751,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12601,9 +11768,7 @@
       }
     },
     "context": {
-      "foo": [
-        "baz"
-      ]
+      "foo": ["baz"]
     },
     "expected": {
       "active": false,
@@ -12618,10 +11783,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12638,9 +11800,7 @@
       }
     },
     "context": {
-      "foo": [
-        "bAz"
-      ]
+      "foo": ["bAz"]
     },
     "expected": {
       "active": true,
@@ -12655,10 +11815,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12675,9 +11832,7 @@
       }
     },
     "context": {
-      "foo": [
-        "bàz"
-      ]
+      "foo": ["bàz"]
     },
     "expected": {
       "active": true,
@@ -12692,10 +11847,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12712,9 +11864,7 @@
       }
     },
     "context": {
-      "foo": [
-        "bÁz"
-      ]
+      "foo": ["bÁz"]
     },
     "expected": {
       "active": true,
@@ -12729,10 +11879,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12762,10 +11909,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12797,10 +11941,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12832,10 +11973,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12867,10 +12005,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12902,10 +12037,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12937,10 +12069,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -12972,10 +12101,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -13007,10 +12133,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -13042,10 +12165,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -13077,10 +12197,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -13112,10 +12229,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -13147,10 +12261,7 @@
           "rules": [
             {
               "operator": "ARR_OVERLAP",
-              "values": [
-                "bar",
-                "baz"
-              ],
+              "values": ["bar", "baz"],
               "negate": true,
               "key": "foo"
             }
@@ -14715,11 +13826,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -14751,11 +13858,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -14787,11 +13890,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -14823,11 +13922,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -14859,11 +13954,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -14895,11 +13986,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -14931,11 +14018,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -14965,11 +14048,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15001,11 +14080,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15037,11 +14112,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15073,11 +14144,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15109,11 +14176,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15145,11 +14208,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15181,11 +14240,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15217,11 +14272,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15253,11 +14304,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15289,11 +14336,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15325,11 +14368,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15361,11 +14400,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15397,11 +14432,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15433,11 +14464,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15467,11 +14494,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15503,11 +14526,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15539,11 +14558,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15575,11 +14590,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15611,11 +14622,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15647,11 +14654,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15683,11 +14686,7 @@
             {
               "operator": "SEMVER_EQ",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15719,11 +14718,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15755,11 +14750,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15791,11 +14782,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15827,11 +14814,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15863,11 +14846,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15899,11 +14878,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15935,11 +14910,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -15971,11 +14942,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16007,11 +14974,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16043,11 +15006,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16079,11 +15038,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16115,11 +15070,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16151,11 +15102,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16187,11 +15134,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16221,11 +15164,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16257,11 +15196,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16293,11 +15228,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16329,11 +15260,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16365,11 +15292,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16401,11 +15324,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16437,11 +15356,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": false,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16473,11 +15388,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16509,11 +15420,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16545,11 +15452,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16581,11 +15484,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16617,11 +15516,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16653,11 +15548,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16689,11 +15580,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16725,11 +15612,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16761,11 +15644,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16797,11 +15676,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16833,11 +15708,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16869,11 +15740,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16905,11 +15772,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16941,11 +15804,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -16975,11 +15834,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -17011,11 +15866,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -17047,11 +15898,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -17083,11 +15930,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -17119,11 +15962,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -17155,11 +15994,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -17191,11 +16026,7 @@
             {
               "operator": "SEMVER_GTE",
               "negate": true,
-              "version": [
-                1,
-                20,
-                4
-              ],
+              "version": [1, 20, 4],
               "key": "foo"
             }
           ],
@@ -17227,11 +16058,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17263,11 +16090,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17299,11 +16122,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17335,11 +16154,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17371,11 +16186,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17407,11 +16218,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17443,11 +16250,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17479,11 +16282,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17515,11 +16314,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17551,11 +16346,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17587,11 +16378,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17623,11 +16410,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17659,11 +16442,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17695,11 +16474,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17729,11 +16504,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17765,11 +16536,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17801,11 +16568,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17837,11 +16600,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17873,11 +16632,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17909,11 +16664,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17945,11 +16696,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": false,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -17981,11 +16728,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18017,11 +16760,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18053,11 +16792,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18089,11 +16824,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18125,11 +16856,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18161,11 +16888,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18197,11 +16920,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18233,11 +16952,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18269,11 +16984,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18305,11 +17016,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18341,11 +17048,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18377,11 +17080,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18413,11 +17112,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18449,11 +17144,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18483,11 +17174,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18519,11 +17206,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18555,11 +17238,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18591,11 +17270,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18627,11 +17302,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18663,11 +17334,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
@@ -18699,11 +17366,7 @@
             {
               "operator": "SEMVER_LTE",
               "negate": true,
-              "version": [
-                1,
-                21,
-                4
-              ],
+              "version": [1, 21, 4],
               "key": "foo"
             }
           ],
