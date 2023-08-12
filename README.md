@@ -1,3 +1,7 @@
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/Tggl/tggl-core/tests.yml)
+![Coveralls branch](https://img.shields.io/coverallsCoverage/github/Tggl/tggl-core)
+![npm](https://img.shields.io/npm/v/tggl-core)
+
 # Tggl Core
 
 This package is used to evaluate flags and serves as a reference implementation.
