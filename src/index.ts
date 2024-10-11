@@ -35,6 +35,7 @@ export type Rule =
       rangeStart: number
       rangeEnd: number
       seed: number
+      negate?: boolean
     }
   | {
       key: string
@@ -58,6 +59,7 @@ export type Rule =
       key: string
       operator: Operator.StrBefore | Operator.StrAfter
       value: string
+      negate?: boolean
     }
   | {
       key: string
@@ -76,6 +78,7 @@ export type Rule =
       operator: Operator.DateAfter | Operator.DateBefore
       timestamp: number
       iso: string
+      negate?: boolean
     }
 
 export type Variation = {
@@ -157,14 +160,14 @@ export const evalRule = (rule: Rule, value: unknown): boolean => {
     if (typeof value !== 'string') {
       return false
     }
-    return value >= rule.value
+    return value >= rule.value !== (rule.negate ?? false)
   }
 
   if (rule.operator === Operator.StrBefore) {
     if (typeof value !== 'string') {
       return false
     }
-    return value <= rule.value
+    return value <= rule.value !== (rule.negate ?? false)
   }
 
   if (rule.operator === Operator.RegExp) {
@@ -211,15 +214,15 @@ export const evalRule = (rule: Rule, value: unknown): boolean => {
       const val =
         value.slice(0, '2000-01-01T23:59:59'.length) +
         '2000-01-01T23:59:59'.slice(value.length)
-      return rule.iso <= val
+      return rule.iso <= val !== (rule.negate ?? false)
     }
 
     if (typeof value === 'number') {
       if (value < 631152000000) {
-        return value * 1000 >= rule.timestamp
+        return value * 1000 >= rule.timestamp !== (rule.negate ?? false)
       }
 
-      return value >= rule.timestamp
+      return value >= rule.timestamp !== (rule.negate ?? false)
     }
 
     return false
@@ -230,15 +233,15 @@ export const evalRule = (rule: Rule, value: unknown): boolean => {
       const val =
         value.slice(0, '2000-01-01T00:00:00'.length) +
         '2000-01-01T00:00:00'.slice(value.length)
-      return rule.iso >= val
+      return rule.iso >= val !== (rule.negate ?? false)
     }
 
     if (typeof value === 'number') {
       if (value < 631152000000) {
-        return value * 1000 <= rule.timestamp
+        return value * 1000 <= rule.timestamp !== (rule.negate ?? false)
       }
 
-      return value <= rule.timestamp
+      return value <= rule.timestamp !== (rule.negate ?? false)
     }
 
     return false
@@ -320,7 +323,10 @@ export const evalRule = (rule: Rule, value: unknown): boolean => {
       probability -= Number.EPSILON
     }
 
-    return probability >= rule.rangeStart && probability < rule.rangeEnd
+    return (
+      (probability >= rule.rangeStart && probability < rule.rangeEnd) !==
+      (rule.negate ?? false)
+    )
   }
 
   throw new Error(`Unsupported operator ${rule.operator}`)

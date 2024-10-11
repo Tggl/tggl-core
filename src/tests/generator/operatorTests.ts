@@ -347,6 +347,20 @@ ot('zzz', false, 'after')
 expectFalseForAllTypesBut('string')
 
 rule = {
+  operator: Operator.StrBefore,
+  value: 'bar',
+  negate: true,
+}
+
+ot('aaa', false, 'before')
+ot('ba', false, 'sub string of start')
+ot('bà', true, 'accent')
+ot('bar', false, 'same')
+ot('bara', true, 'same with suffix')
+ot('zzz', true, 'after')
+expectFalseForAllTypesBut('string')
+
+rule = {
   operator: Operator.StrAfter,
   value: 'bar',
 }
@@ -357,6 +371,20 @@ ot('bar', true, 'same')
 ot('BAR', false, 'uppercase')
 ot('bara', true, 'same with suffix')
 ot('zzz', true, 'after')
+expectFalseForAllTypesBut('string')
+
+rule = {
+  operator: Operator.StrAfter,
+  value: 'bar',
+  negate: true,
+}
+
+ot('aaa', true, 'before')
+ot('ba', true, 'sub string of start')
+ot('bar', false, 'same')
+ot('BAR', true, 'uppercase')
+ot('bara', false, 'same with suffix')
+ot('zzz', false, 'after')
 expectFalseForAllTypesBut('string')
 
 rule = {
@@ -504,6 +532,33 @@ ot(1649846220000 + 1, true, 'timestamp milli after')
 expectFalseForAllTypesBut(['string', 'number'])
 
 rule = {
+  operator: Operator.DateAfter,
+  timestamp: 1649846220000,
+  iso: '2022-04-13T12:37:00',
+  negate: true,
+}
+
+ot('1999-01-01', true, 'iso date before')
+ot('2022-04-13', false, 'iso date same')
+ot('2100-01-01', false, 'iso date after')
+ot('2022-04-13T09:37', true, 'same date, time before')
+ot('2022-04-13T12:37', false, 'same date, same hour / min')
+ot('2099-01-01T23:59', false, 'date after, time before')
+ot('2022-04-13T09:37:00', true, 'same date, time before with seconds')
+ot('2022-04-13T12:37:00', false, 'same date, same time')
+ot('2099-01-01T23:59:00', false, 'date time after')
+ot('2022-04-13T09:37:00Z', true, 'same date time before with Z')
+ot('2022-04-13T12:37:00Z', false, 'same date time with Z')
+ot('2099-01-01T23:59:00Z', false, 'date time after with Z')
+ot(1649846220 - 1, true, 'timestamp before')
+ot(1649846220000 - 1, true, 'timestamp milli before')
+ot(1649846220, false, 'same timestamp')
+ot(1649846220000, false, 'same timestamp milli')
+ot(1649846220 + 1, false, 'timestamp after')
+ot(1649846220000 + 1, false, 'timestamp milli after')
+expectFalseForAllTypesBut(['string', 'number'])
+
+rule = {
   operator: Operator.DateBefore,
   timestamp: 1649846220000,
   iso: '2022-04-13T12:37:00',
@@ -527,6 +582,33 @@ ot(1649846220, true, 'same timestamp')
 ot(1649846220000, true, 'same timestamp milli')
 ot(1649846220 + 1, false, 'timestamp after')
 ot(1649846220000 + 1, false, 'timestamp milli after')
+expectFalseForAllTypesBut(['string', 'number'])
+
+rule = {
+  operator: Operator.DateBefore,
+  timestamp: 1649846220000,
+  iso: '2022-04-13T12:37:00',
+  negate: true,
+}
+
+ot('2022-04-12', false, 'iso date before')
+ot('2022-04-13', false, 'iso date same')
+ot('2022-04-14', true, 'iso date after')
+ot('2022-04-13T23:59', true, 'same date, time after')
+ot('2022-04-13T12:37', false, 'same date, same time / hour')
+ot('2001-01-01T09:24', false, 'date time before')
+ot('2022-04-13T23:59:00', true, 'same date, time after with second')
+ot('2022-04-13T12:37:00', false, 'same date time')
+ot('2001-01-01T09:24:00', false, 'date time before with second')
+ot('2022-04-13T23:59:00Z', true, 'same date, time after with Z')
+ot('2022-04-13T12:37:00Z', false, 'same date time with Z')
+ot('2001-01-01T09:24:00Z', false, 'date time before with Z')
+ot(1649846220 - 1, false, 'timestamp before')
+ot(1649846220000 - 1, false, 'timestamp milli before')
+ot(1649846220, false, 'same timestamp')
+ot(1649846220000, false, 'same timestamp milli')
+ot(1649846220 + 1, true, 'timestamp after')
+ot(1649846220000 + 1, true, 'timestamp milli after')
 expectFalseForAllTypesBut(['string', 'number'])
 
 rule = {
@@ -688,4 +770,54 @@ ot(17, true, '17')
 ot(18, true, '18')
 ot(19, false, '19')
 ot(20, false, '20')
+expectFalseForAllTypesBut(['string', 'number'])
+
+rule = {
+  operator: Operator.Percentage,
+  seed: 42,
+  rangeStart: 0.1,
+  rangeEnd: 0.7,
+  negate: true,
+}
+
+ot('rhythm', false, 'rhythm')
+ot('live', true, 'live')
+ot('peep', true, 'peep')
+ot('confuse', true, 'confuse')
+ot('abiding', false, 'abiding')
+ot('press', false, 'press')
+ot('billowy', true, 'billowy')
+ot('standing', true, 'standing')
+ot('combative', false, 'combative')
+ot('earsplitting', false, 'earsplitting')
+ot('cautious', false, 'cautious')
+ot('square', true, 'square')
+ot('judicious', false, 'judicious')
+ot('limping', false, 'limping')
+ot('rice', false, 'rice')
+ot('taste', true, 'taste')
+ot('bomb', true, 'bomb')
+ot('twig', false, 'twig')
+ot('clumsy', true, 'clumsy')
+ot('toothpaste', false, 'toothpaste')
+ot(1, false, '1')
+ot(2, true, '2')
+ot(3, false, '3')
+ot(4, false, '4')
+ot(5, false, '5')
+ot(6, true, '6')
+ot(7, true, '7')
+ot(8, false, '8')
+ot(9, false, '9')
+ot(10, false, '10')
+ot(11, false, '11')
+ot(12, false, '12')
+ot(13, true, '13')
+ot(14, false, '14')
+ot(15, false, '15')
+ot(16, true, '16')
+ot(17, false, '17')
+ot(18, false, '18')
+ot(19, true, '19')
+ot(20, true, '20')
 expectFalseForAllTypesBut(['string', 'number'])

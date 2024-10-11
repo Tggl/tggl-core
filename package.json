@@ -12,7 +12,7 @@
     "build": "tsc",
     "format": "prettier --write src/.",
     "test": "jest",
-    "buildStandardTests": "ts-node src/tests/generator/generateStandardTests.ts",
+    "buildStandardTests": "ts-node src/tests/generator/generateStandardTests.ts && prettier --write src/tests/standard_tests.json",
     "prepublishOnly": "npm test",
     "prepare": "husky install && npm run build",
     "version": "npm run format && git add -A src",
