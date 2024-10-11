@@ -10,7 +10,7 @@ If you are porting it to another language, copy [standard_tests.json](./src/test
 
 ## Usage
 
-You probably want to use the [client](https://doc.tggl.io/docs/sdks/list/node) rather than this library. The client nicely wraps this library in a more convenient way.
+You probably want to use the [client](https://tggl.io/developers/sdks/node) rather than this library. The client nicely wraps this library in a more convenient way.
 
 If you still want to use this library directly, add the package to your dependencies:
 ```
