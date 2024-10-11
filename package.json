@@ -13,8 +13,9 @@
     "format": "prettier --write src/.",
     "test": "jest",
     "buildStandardTests": "ts-node src/tests/generator/generateStandardTests.ts && prettier --write src/tests/standard_tests.json",
-    "prepublishOnly": "npm test",
+    "prepublishOnly": "npm run buildStandardTests && npm test && rm -rf lib && npm run build",
     "prepare": "husky install && npm run build",
+    "preversion": "npm run buildStandardTests && npm test",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
