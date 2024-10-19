@@ -25,8 +25,6 @@
   <img src="https://img.shields.io/npm/v/tggl-core" alt="npm" />
 </p>
 
----
-
 ## Usage
 
 This library is not intended for direct use, you probably want to use the [client](https://tggl.io/developers/sdks/node) instead. The client nicely wraps this library in a more convenient way.
