@@ -1,11 +1,19 @@
 {
   "name": "tggl-core",
   "version": "1.3.0",
-  "description": "Tggl javascript core",
+  "description": "Tggl Typescript core for evaluating flags",
   "keywords": [
     "Tggl",
-    "feature flag"
+    "Feature flag",
+    "Feature toggle",
+    "A/B testing",
+    "Remote config",
+    "Kill switch"
   ],
+  "author": "Nicolas Keller",
+  "license": "ISC",
+  "homepage": "https://tggl.io/",
+  "repository": "https://github.com/Tggl/tggl-core",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -22,8 +30,6 @@
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
-  "author": "Nicolas Keller",
-  "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/node-fetch": "^2.5.10",
